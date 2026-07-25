@@ -3,45 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Safety - Byaj</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Data Safety - BYAJ Smart Interest Management">
+    <meta name="keywords" content="BYAJ, Data Safety, Security">
+    <meta name="author" content="BYAJ Team">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <title>Data Safety - BYAJ</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms.html">Terms</a>
-        <a href="contact.html">Contact</a>
-        <a href="data-safety.html">Data Safety</a>
-        <a href="delete-account.html">Delete Account</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <span class="logo-icon">₹</span>
+                    <span class="logo-text">BYAJ</span>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="privacy-policy.html">Privacy</a></li>
+                    <li><a href="data-safety.html" class="active">Data Safety</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <h1>Data Safety</h1>
-        <section>
-            <h2>Our Commitment to Data Security</h2>
-            <p>At Byaj, we take data security seriously and implement industry-standard measures to protect your information.</p>
-        </section>
-        <section>
-            <h2>Security Measures</h2>
-            <ul>
-                <li>Encryption of sensitive data in transit and at rest</li>
-                <li>Regular security audits and vulnerability assessments</li>
-                <li>Secure authentication protocols</li>
-                <li>Limited access to personal information</li>
-                <li>Regular employee training on data protection</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Data Retention</h2>
-            <p>We retain your data only for as long as necessary to provide our services and comply with legal obligations. You can request deletion of your data at any time.</p>
-        </section>
-        <section>
-            <h2>Reporting a Security Issue</h2>
-            <p>If you discover a security vulnerability, please <a href="contact.html">contact us immediately</a> so we can address it promptly.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Byaj. All rights reserved.</p>
+
+    <!-- Data Safety Content -->
+    <section class="legal-page">
+        <div class="container">
+            <h1>Data Safety & Security</h1>
+            <p class="last-updated">Last updated: July 2026</p>
+            
+            <section class="policy-section">
+                <h2>Our Commitment to Data Security</h2>
+                <p>At BYAJ, we take data security seriously and implement industry-standard measures to protect your financial information. Your trust is our priority.</p>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Security Measures</h2>
+                <ul>
+                    <li>End-to-end encryption of sensitive data in transit and at rest</li>
+                    <li>Regular security audits and vulnerability assessments</li>
+                    <li>Multi-factor authentication (MFA) for account access</li>
+                    <li>Secure authentication protocols (OAuth 2.0, JWT)</li>
+                    <li>Limited access to personal information (principle of least privilege)</li>
+                    <li>Regular employee training on data protection and security</li>
+                    <li>Compliance with international security standards (ISO 27001)</li>
+                    <li>Automatic session timeout and activity logging</li>
+                </ul>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Data Storage</h2>
+                <p>Your data is stored on secure, encrypted servers with redundant backup systems. We use industry-leading cloud infrastructure with:</p>
+                <ul>
+                    <li>Geographically distributed data centers</li>
+                    <li>Automatic daily backups</li>
+                    <li>Disaster recovery protocols</li>
+                    <li>99.99% uptime guarantee</li>
+                </ul>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Data Retention</h2>
+                <p>We retain your data only for as long as necessary to provide our services and comply with legal obligations. You can request deletion or export of your data at any time through your account settings or by contacting our support team.</p>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Financial Data Protection</h2>
+                <p>BYAJ is designed specifically for financial data management with enhanced security:</p>
+                <ul>
+                    <li>PCI DSS compliance for payment information</li>
+                    <li>Real-time fraud detection and prevention</li>
+                    <li>Secure transaction logging and audit trails</li>
+                    <li>Encrypted financial records storage</li>
+                </ul>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Reporting a Security Issue</h2>
+                <p>If you discover a security vulnerability or suspicious activity, please <a href="contact.html">contact us immediately</a>. We take all security concerns seriously and will address them promptly. Do not share vulnerability details publicly until we've had time to respond.</p>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Privacy Controls</h2>
+                <p>You have full control over your data:</p>
+                <ul>
+                    <li>View what data we collect about you</li>
+                    <li>Export your data in standard formats</li>
+                    <li>Delete specific data or your entire account</li>
+                    <li>Control what information is shared with third parties</li>
+                    <li>Opt-out of non-essential communications</li>
+                </ul>
+            </section>
+            
+            <section class="policy-section">
+                <h2>Third-Party Security</h2>
+                <p>We only partner with vetted third-party services that meet our security standards. All integrations are monitored and regularly audited for compliance.</p>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>BYAJ</h4>
+                    <p>Smart Interest Management for modern financial professionals</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="data-safety.html">Data Safety</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="mailto:support@yourdomain.com">Email Support</a></li>
+                        <li><a href="delete-account.html">Delete Account</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BYAJ - Smart Interest Management. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
