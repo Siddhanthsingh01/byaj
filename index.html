@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BYAJ - Smart Interest Management app for loan management, customer management, and financial tracking with advanced analytics">
+    <meta name="keywords" content="BYAJ, Interest Management, Loan Management, Financial App, Android App">
+    <meta name="author" content="BYAJ Team">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BYAJ - Smart Interest Management">
+    <meta property="og:description" content="Manage your loans, customers, and finances with BYAJ - the smart interest management app">
+    <meta property="og:image" content="assets/images/og-image.png">
+    <meta property="og:url" content="https://siddhanthsingh01.github.io/byaj/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <title>BYAJ - Smart Interest Management</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <span class="logo-icon">₹</span>
+                    <span class="logo-text">BYAJ</span>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="privacy-policy.html">Privacy</a></li>
+                    <li><a href="data-safety.html">Data Safety</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>BYAJ</h1>
+                    <p class="tagline">Smart Interest Management</p>
+                    <p class="description">Manage your loans, customers, and finances with precision. Track interest calculations, payments, and analytics all in one place.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('features')">Explore Features</button>
+                        <button class="btn btn-secondary" onclick="document.getElementById('contact-modal').style.display='block'">Get in Touch</button>
+                    </div>
+                </div>
+                <div class="hero-image fade-in" style="animation-delay: 0.2s;">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="phone-content">
+                                <p style="color: var(--navy); font-weight: bold; margin: 20px 0;">BYAJ App</p>
+                                <p style="color: var(--gold); font-size: 14px;">Smart Management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need for complete financial management</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Loan Management</h3>
+                    <p>Efficiently manage all your loans with detailed tracking and organization tools.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Customer Management</h3>
+                    <p>Keep detailed records of all customers with comprehensive contact information.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Pledged Gold Management</h3>
+                    <p>Track and manage pledged gold inventory with real-time valuation.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🧮</div>
+                    <h3>Interest Calculation</h3>
+                    <p>Accurate automatic interest calculations with customizable rates and schedules.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h3>Payment Tracking</h3>
+                    <p>Monitor all payments with detailed history and reminders for upcoming dues.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Reports & Analytics</h3>
+                    <p>Generate comprehensive reports and visual analytics for better decision making.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Backup & Restore</h3>
+                    <p>Secure backup of all your data with easy restore options.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Data</h3>
+                    <p>Enterprise-grade encryption and security for complete data protection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About BYAJ</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>BYAJ is a comprehensive smart interest management application designed for financial professionals who need reliable tools for loan management, customer tracking, and financial analytics.</p>
+                    <p>Whether you're managing multiple loans, tracking customer payments, or analyzing financial data, BYAJ provides the precision and security you need to succeed in your financial operations.</p>
+                    <p>Built with security and user experience in mind, BYAJ ensures your financial data is always protected while providing intuitive tools for daily management tasks.</p>
+                </div>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <span class="check-mark">✓</span>
+                        <span>Real-time Analytics</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="check-mark">✓</span>
+                        <span>Cloud Backup</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="check-mark">✓</span>
+                        <span>Multi-user Support</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="check-mark">✓</span>
+                        <span>Advanced Security</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Financial Management?</h2>
+            <p>Download BYAJ today and start managing your finances with confidence</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary" target="_blank">Download on Google Play</a>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact-modal').style.display='block'">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="container">
+            <h2 class="section-title">Legal & Support</h2>
+            <div class="links-grid">
+                <a href="privacy-policy.html" class="link-card">
+                    <h3>Privacy Policy</h3>
+                    <p>Learn how we protect your data</p>
+                </a>
+                <a href="data-safety.html" class="link-card">
+                    <h3>Data Safety</h3>
+                    <p>Understand our security practices</p>
+                </a>
+                <a href="delete-account.html" class="link-card">
+                    <h3>Delete Account</h3>
+                    <p>Request account deletion</p>
+                </a>
+                <a href="terms.html" class="link-card">
+                    <h3>Terms & Conditions</h3>
+                    <p>Read our terms of service</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('contact-modal').style.display='none'">&times;</span>
+            <h2>Get in Touch</h2>
+            <p>Have questions? We'd love to hear from you!</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="submitContactForm()">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>BYAJ</h4>
+                    <p>Smart Interest Management for modern financial professionals</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="data-safety.html">Data Safety</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="mailto:support@yourdomain.com">Email Support</a></li>
+                        <li><a href="delete-account.html">Delete Account</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BYAJ - Smart Interest Management. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
